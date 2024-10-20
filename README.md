@@ -1,3 +1,15 @@
-# Find Remote Jobs
+# Remote Jobs Finder
 
-This repo implement a web scrapper to get remote jobs from [weworkremotely](https://weworkremotely.com)
+Streamlit application which scrape jobs from [weworkremotely](https://weworkremotely.com)
+
+## Setup
+
+```
+pip install -r requirements.txt
+```
+
+## Run
+
+```
+streamlit run app.py
+```

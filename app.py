@@ -21,7 +21,9 @@ if st.button("Run"):
         df_filtered = df_filtered[df_filtered['tags'].isin(filter_tags)]
         if len(df_filtered) > 0:
             st.write(df_filtered)
+            df_filtered.to_csv('jobs.csv')
         else:
             st.error('No job found')
     else:
         st.write(df)
+        df.to_csv('jobs.csv')
